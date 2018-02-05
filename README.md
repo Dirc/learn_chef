@@ -1,4 +1,12 @@
 # Learn Chef Dockerfile
+Based on course beginners course on: https://learn.chef.io
+
+The main difference is that the container is build useing a Dockerfile instead of typing multiple commands.
+
+PRO: 
+- Regenerate everything from code.
+- Everything you do inside the container will be lost. (Volume is not dynamicaly shared between container and host)
+
 
 ## Setup chefdk container
 Build dockerfile
